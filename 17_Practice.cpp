@@ -1,7 +1,3 @@
-//Class is a way of binding different types of data types and 
-// its associated data members in single unit which allows data and functions
-// to be hidden from external world if required.
-// user defined data type and just a blueprint, No memory allocation untill object created.
 #include <iostream>
 #include <string>
 using namespace std;
@@ -41,12 +37,3 @@ public:      // Access specifier
         cout << "Bharat Stage     : " << bharatStage << endl;
     }
 };
-
-int main()
-{
-    Vehicle V1;
-    V1.getdata();
-    V1.putdata();
-
-    return 0;
-}
